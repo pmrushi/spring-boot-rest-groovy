@@ -1,0 +1,16 @@
+server:
+  port: 9000
+  tomcat:
+    accesslog:
+      enabled: true
+    basedir: build/tomcat
+  servlet:
+    context-path: /
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: logs/application-default.log
