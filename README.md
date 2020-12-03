@@ -1,9 +1,9 @@
 # spring-boot-rest-groovy
 
-Run 
+** How to Run **
 
-./gradlew build
+Build -  ./gradlew build
 
-./gradlew test
+Rus Tests  - ./gradlew test
 
-./gradlew bootRun
+Application start - ./gradlew bootRun
